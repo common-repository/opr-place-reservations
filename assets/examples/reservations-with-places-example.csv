@@ -1,0 +1,3 @@
+"Name";"Email";"Phone Number";"Reservation start time";"Reservation end time";"Additional information on reservation";"Place name";"General type";"Place type";"Period type";"Location";"Length";"Width";"Depth";"Description of place"
+"Test Person5";"test.person5@example.com";"+35840123460";"2020-04-03";"2020-05-04";"This place is needed";"E1";"Marina";"Pier";"Season";"Pier E1";"11.00";"6.00";"3.00";"Big place"
+"Person Test5";"person.test5@example.com";"+35840123461";"2020-05-04";"2020-06-05";"This place is really needed";"E2";"Marina";"Pier";"Season";"Pier E1";"11.00";"6.00";"3.00";"Big place"

@@ -1,0 +1,777 @@
+# Copyright (C) 2023 Orwokki <info@orwokki.com>
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: OPR Place Reservations 1.1.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/opr-place-"
+"reservations\n"
+"POT-Creation-Date: 2023-01-30T18:09:24+00:00\n"
+"PO-Revision-Date: 2023-01-30 20:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: orwokki-pr\n"
+
+#. Plugin Name of the plugin
+msgid "OPR Place Reservations"
+msgstr "OPR Paikkavaraukset"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/opr-place-reservations/"
+msgstr "https://wordpress.org/plugins/opr-place-reservations/"
+
+#. Description of the plugin
+msgid "Plugin to handle and show places to rent and their reservations"
+msgstr ""
+"Lisäosa jolla hallinnoit ja julkaiset vuokrattavia paikkoja ja niiden "
+"varauksia"
+
+#. Author of the plugin
+msgid "Orwokki <info@orwokki.com>"
+msgstr "Orwokki <info@orwokki.com>"
+
+#. Author URI of the plugin
+msgid "https://orwokki.com"
+msgstr "https://orwokki.com"
+
+#: classes/Admin/Api.php:44 classes/Admin/Api.php:94 classes/Admin/Api.php:161
+#: classes/Admin/Api.php:238 classes/Admin/Api.php:255
+#: classes/Admin/Api.php:302 classes/Admin/Api.php:337
+#: classes/Admin/Api.php:352 classes/Admin/Api.php:381
+#: classes/Admin/Api.php:439 classes/Admin/Api.php:454
+#: classes/Admin/Api.php:483 classes/Admin/Api.php:536
+#: classes/Admin/Api.php:551 classes/Admin/Api.php:579
+#: classes/Admin/Api.php:627 classes/Admin/Api.php:668
+#: classes/Admin/Api.php:699 classes/Admin/Api.php:718
+#: classes/Admin/Api.php:739 classes/Admin/Api.php:762
+#: classes/Admin/Api.php:782 classes/Admin/Api.php:819
+#: classes/Admin/Api.php:854
+msgid "Not allowed."
+msgstr "Ei sallittu."
+
+#: classes/Admin/Api.php:114 classes/Admin/Api.php:273
+#: classes/Admin/Api.php:361 classes/Admin/Api.php:391
+#: classes/Admin/Api.php:463 classes/Admin/Api.php:559
+#: classes/Admin/Api.php:588 classes/Site/Api.php:52
+msgid ""
+"Value of name field is too long. Expected maximum of 255 characters, got %d "
+"characters."
+msgstr ""
+"Nimi kentässä oleva arvo on liian pitkä. Maksimi pituus on 255 merkkiä, nyt "
+"pituus on %d merkkiä."
+
+#: classes/Admin/Api.php:119 classes/Site/Api.php:57
+msgid ""
+"Value of email field is too long. Expected maximum of 255 characters, got %d "
+"characters."
+msgstr ""
+"Sähköpostiosoite kentässä oleva arvo on liian pitkä. Maksimi pituus on 255 "
+"merkkiä, nyt pituus on %d merkkiä."
+
+#: classes/Admin/Api.php:124 classes/Site/Api.php:62
+msgid ""
+"Value of phone number field is too long. Expected maximum of 255 characters, "
+"got %d characters."
+msgstr ""
+"Puhelinnumero kentässä oleva arvo on liian pitkä. Maksimi pituus on 255 "
+"merkkiä, nyt pituus on %d merkkiä."
+
+#: classes/Admin/Api.php:132 classes/Site/Api.php:70
+msgid "Failed to create new reservation. "
+msgstr "Uuden varauksen luominen epäonnistui. "
+
+#: classes/Admin/Api.php:138 classes/Admin/Api.php:143 classes/Site/Api.php:76
+#: classes/Site/Api.php:81
+msgid "Failed storing new reservation."
+msgstr "Varauksen tallentaminen epäonnistui."
+
+#: classes/Admin/Api.php:149 classes/Site/Api.php:88
+msgid "New reservation created successfully."
+msgstr "Varaus onnistui."
+
+#: classes/Admin/Api.php:172
+msgid "Failed to remove reservation: "
+msgstr "Varauksen poistaminen epäonnistui: "
+
+#: classes/Admin/Api.php:176
+msgid "Reservation removed successfully."
+msgstr "Varaus poistettu onnistuneesti."
+
+#: classes/Admin/Api.php:183 classes/Admin/Api.php:322
+msgid "Remove"
+msgstr "Poista"
+
+#: classes/Admin/Api.php:186
+msgid "Show more reservations"
+msgstr "Näytä lisää varauksia"
+
+#: classes/Admin/Api.php:281
+msgid "Failed to create new place. "
+msgstr "Uuden paikan luominen epäonnistui. "
+
+#: classes/Admin/Api.php:286
+msgid "Failed storing new place."
+msgstr "Uuden paikan tallentaminen epäonnistui."
+
+#: classes/Admin/Api.php:290
+msgid "New place created successfully."
+msgstr "Uusi paikka luotu onnistuneesti."
+
+#: classes/Admin/Api.php:311
+msgid "Failed to remove place: "
+msgstr "Paikan poistaminen epäonnistui: "
+
+#: classes/Admin/Api.php:315
+msgid "Place removed successfully."
+msgstr "Paikka poistettu onnistuneesti."
+
+#: classes/Admin/Api.php:325
+msgid "Show more places"
+msgstr "Näytä lisää paikkoja"
+
+#: classes/Admin/Api.php:366
+msgid "Failed to add new place-type."
+msgstr "Uuden paikkatyypin lisääminen epäonnistui."
+
+#: classes/Admin/Api.php:370
+msgid "New place-type added succesfully"
+msgstr "Uusi paikkatyyppi lisätty onnistuneesti"
+
+#: classes/Admin/Api.php:397
+msgid "Changed place-type succesfully"
+msgstr "Paikkatyypin tietoja muokattu onnistuneesti"
+
+#: classes/Admin/Api.php:404 classes/Admin/Api.php:405
+#: classes/Admin/Api.php:406 classes/Admin/Api.php:501
+#: classes/Admin/Api.php:502 classes/Admin/Api.php:503 classes/Admin/Ui.php:208
+#: classes/Admin/Ui.php:544 classes/Admin/Ui.php:545 classes/Admin/Ui.php:695
+#: classes/Admin/Ui.php:772 classes/Admin/Ui.php:775
+#: classes/Reservations/Messaging.php:53 classes/Site/Ui.php:31
+#: classes/Site/Ui.php:196 classes/Site/Ui.php:199
+msgid "General type"
+msgstr "Kohdetyyppi"
+
+#: classes/Admin/Api.php:408 classes/Admin/Api.php:505
+msgid "Marina"
+msgstr "Marina"
+
+#: classes/Admin/Api.php:409 classes/Admin/Api.php:506
+msgid "Parking"
+msgstr "Parkkipaikka"
+
+#: classes/Admin/Api.php:413 classes/Admin/Api.php:414
+#: classes/Admin/Api.php:415 classes/Admin/Ui.php:720
+msgid "Name of the place-type"
+msgstr "Paikkatyypin nimi"
+
+#: classes/Admin/Api.php:418 classes/Admin/Api.php:419
+#: classes/Admin/Api.php:420 classes/Admin/Api.php:515
+#: classes/Admin/Api.php:516 classes/Admin/Api.php:517
+#: classes/Admin/Api.php:606 classes/Admin/Api.php:607
+#: classes/Admin/Api.php:608 classes/Admin/Ui.php:721 classes/Admin/Ui.php:741
+#: classes/Admin/Ui.php:758
+msgid "Activity"
+msgstr "Käytettävissä"
+
+#: classes/Admin/Api.php:422 classes/Admin/Api.php:519
+#: classes/Admin/Api.php:610 classes/Admin/Ui.php:721 classes/Admin/Ui.php:741
+#: classes/Admin/Ui.php:758
+msgid "Active"
+msgstr "Käytettävissä"
+
+#: classes/Admin/Api.php:423 classes/Admin/Api.php:520
+#: classes/Admin/Api.php:611 classes/Admin/Ui.php:721 classes/Admin/Ui.php:741
+#: classes/Admin/Ui.php:758
+msgid "Not in use"
+msgstr "Ei käytettävissä"
+
+#: classes/Admin/Api.php:427 classes/Admin/Api.php:524
+#: classes/Admin/Api.php:615 classes/Admin/Ui.php:287 classes/Admin/Ui.php:356
+#: classes/Admin/Ui.php:376 classes/Admin/Ui.php:411 classes/Admin/Ui.php:446
+msgid "Save"
+msgstr "Tallenna"
+
+#: classes/Admin/Api.php:468
+msgid "Failed to add new location."
+msgstr "Uuden lokaation lisääminen epäonnistui."
+
+#: classes/Admin/Api.php:472
+msgid "New location added successfully"
+msgstr "Uusi lokaatio lisätty onnistuneesti"
+
+#: classes/Admin/Api.php:494
+msgid "Changed location succesfully"
+msgstr "Lokaatiota muutettu onnistuneesti"
+
+#: classes/Admin/Api.php:510 classes/Admin/Api.php:511
+#: classes/Admin/Api.php:512 classes/Admin/Ui.php:740
+msgid "Name of the location"
+msgstr "Lokaation nimi"
+
+#: classes/Admin/Api.php:564
+msgid "Failed to add new period type."
+msgstr "Uuden kausityypin lisääminen epäonnistui."
+
+#: classes/Admin/Api.php:568
+msgid "New period type added successfully"
+msgstr "Uusi kausityyppi lisätty onnistuneesti"
+
+#: classes/Admin/Api.php:594
+msgid "Changed period type successfully"
+msgstr "Kausityyppiä muutettu onnistuneesti"
+
+#: classes/Admin/Api.php:601 classes/Admin/Api.php:602
+#: classes/Admin/Api.php:603 classes/Admin/Ui.php:757
+msgid "Name of the period type"
+msgstr "Kausityypin nimi"
+
+#: classes/Admin/Api.php:642
+msgid "Invalid value for \"Order places by column\"."
+msgstr "Tuntematon arvo \"Järjestä paikat sarakkeen mukaan\" -kentälle."
+
+#: classes/Admin/Api.php:657
+msgid "Customer view settings saved successfully"
+msgstr "Asiakasnäkymän asetukset tallennettu onnistuneesti"
+
+#: classes/Admin/Api.php:688
+msgid "Reservation settings saved successfully"
+msgstr "Varausten asetukset tallennettu onnistuneesti"
+
+#: classes/Admin/Api.php:707
+msgid "Email general settings saved successfully"
+msgstr "Sähköposti-ilmoitusten yleiset asetukset tallennettu onnistuneesti"
+
+#: classes/Admin/Api.php:728
+msgid "Customer email content settings saved successfully"
+msgstr "Asiakkaalle lähetettävän viestin asetukset tallennettu onnistuneesti"
+
+#: classes/Admin/Api.php:749
+msgid "Administration email content settings saved successfully"
+msgstr "Hallinnolle lähetettävän viestin asetukset tallennettu onnistuneesti"
+
+#: classes/Admin/Api.php:767
+msgid "Are you sure you want to remove this reservation?"
+msgstr "Oletko varma, että haluat poistaa tämän varauksen?"
+
+#: classes/Admin/Api.php:768
+msgid ""
+"Are you sure you want to remove this place and all reservations related to "
+"it?"
+msgstr ""
+"Oletko varma, että haluat poistaa tämän paikan ja siihen liittyvät varaukset?"
+
+#: classes/Admin/Api.php:799 classes/Admin/Api.php:834
+#: classes/Admin/Api.php:871
+msgid "Import failed: %s"
+msgstr "Tuonti epäonnistui: %s"
+
+#: classes/Admin/Api.php:804 classes/Admin/Api.php:839
+#: classes/Admin/Api.php:876
+msgid "Uploading import-file failed. "
+msgstr "Tuontitiedoston lataus epäonnistui. "
+
+#: classes/Admin/Ui.php:28 classes/Plugin/Menu.php:28
+msgid "Reservations"
+msgstr "Varaukset"
+
+#: classes/Admin/Ui.php:40
+msgid "Add new reservation"
+msgstr "Lisää uusi varaus"
+
+#: classes/Admin/Ui.php:44
+msgid "List of reservations"
+msgstr "Varauslista"
+
+#: classes/Admin/Ui.php:60 classes/Plugin/Menu.php:50
+msgid "Places"
+msgstr "Paikat"
+
+#: classes/Admin/Ui.php:71
+msgid "Add new place"
+msgstr "Lisää uusi paikka"
+
+#: classes/Admin/Ui.php:76
+msgid "List of places"
+msgstr "Paikkalistaus"
+
+#: classes/Admin/Ui.php:91 classes/Plugin/Menu.php:72
+msgid "Types & locations"
+msgstr "Tyypit ja lokaatiot"
+
+#: classes/Admin/Ui.php:113 classes/Plugin/Menu.php:94
+msgid "Settings"
+msgstr "Asetukset"
+
+#: classes/Admin/Ui.php:123
+msgid "Customer view settings"
+msgstr "Asiakasnäkymän asetukset"
+
+#: classes/Admin/Ui.php:171
+msgid "Data import"
+msgstr "Tietojen tuonti"
+
+#: classes/Admin/Ui.php:179
+msgid "Import reservations with their places"
+msgstr "Tuo varauksia ja niiden paikat"
+
+#: classes/Admin/Ui.php:180 classes/Admin/Ui.php:184 classes/Admin/Ui.php:188
+msgid "Example CSV file"
+msgstr "Esimerkki CSV-tiedosto"
+
+#: classes/Admin/Ui.php:183
+msgid "Import reservations"
+msgstr "Tuo varauksia"
+
+#: classes/Admin/Ui.php:187
+msgid "Import places"
+msgstr "Tuo paikkoja"
+
+#: classes/Admin/Ui.php:203
+msgid "Select which fields are shown at customer view"
+msgstr "Valitse mitkä kentät näytetään asiakasnäkymässä"
+
+#: classes/Admin/Ui.php:209 classes/Admin/Ui.php:215 classes/Admin/Ui.php:221
+#: classes/Admin/Ui.php:227 classes/Admin/Ui.php:233 classes/Admin/Ui.php:239
+#: classes/Admin/Ui.php:245 classes/Admin/Ui.php:251
+msgid "When selected %s is shown at customer view"
+msgstr "Kun valittuna %s näytetään asiakasnäkymässä"
+
+#: classes/Admin/Ui.php:214 classes/Admin/Ui.php:266 classes/Admin/Ui.php:552
+#: classes/Admin/Ui.php:553 classes/Admin/Ui.php:622 classes/Admin/Ui.php:623
+#: classes/Admin/Ui.php:662 classes/Admin/Ui.php:663 classes/Admin/Ui.php:696
+#: classes/Reservations/Messaging.php:54 classes/Site/Ui.php:35
+#: classes/Site/Ui.php:81 classes/Site/Ui.php:82
+msgid "Place type"
+msgstr "Paikkatyyppi"
+
+#: classes/Admin/Ui.php:220 classes/Admin/Ui.php:269 classes/Admin/Ui.php:562
+#: classes/Admin/Ui.php:563 classes/Admin/Ui.php:629 classes/Admin/Ui.php:630
+#: classes/Admin/Ui.php:669 classes/Admin/Ui.php:670 classes/Admin/Ui.php:697
+#: classes/Reservations/Messaging.php:55 classes/Site/Ui.php:39
+#: classes/Site/Ui.php:90 classes/Site/Ui.php:91
+msgid "Location"
+msgstr "Lokaatio"
+
+#: classes/Admin/Ui.php:226 classes/Admin/Ui.php:272 classes/Admin/Ui.php:310
+#: classes/Admin/Ui.php:468 classes/Admin/Ui.php:469 classes/Admin/Ui.php:524
+#: classes/Admin/Ui.php:572 classes/Admin/Ui.php:573 classes/Admin/Ui.php:676
+#: classes/Admin/Ui.php:677 classes/Admin/Ui.php:698
+#: classes/Reservations/Messaging.php:56 classes/Reservations/Messaging.php:65
+#: classes/Reservations/ReservationDirectory.php:213 classes/Site/Ui.php:43
+#: classes/Site/Ui.php:99 classes/Site/Ui.php:100 classes/Site/Ui.php:145
+#: classes/Site/Ui.php:146
+msgid "Period type"
+msgstr "Kausityyppi"
+
+#: classes/Admin/Ui.php:232 classes/Admin/Ui.php:275 classes/Admin/Ui.php:587
+#: classes/Admin/Ui.php:588 classes/Admin/Ui.php:636 classes/Admin/Ui.php:699
+#: classes/Reservations/Messaging.php:57 classes/Site/Ui.php:47
+#: classes/Site/Ui.php:108
+msgid "Length"
+msgstr "Pituus"
+
+#: classes/Admin/Ui.php:238 classes/Admin/Ui.php:278 classes/Admin/Ui.php:592
+#: classes/Admin/Ui.php:593 classes/Admin/Ui.php:638 classes/Admin/Ui.php:700
+#: classes/Reservations/Messaging.php:58 classes/Site/Ui.php:51
+#: classes/Site/Ui.php:112
+msgid "Width"
+msgstr "Leveys"
+
+#: classes/Admin/Ui.php:244 classes/Admin/Ui.php:281 classes/Admin/Ui.php:597
+#: classes/Admin/Ui.php:598 classes/Admin/Ui.php:640 classes/Admin/Ui.php:701
+#: classes/Reservations/Messaging.php:59 classes/Site/Ui.php:55
+#: classes/Site/Ui.php:116
+msgid "Depth"
+msgstr "Syvyys"
+
+#: classes/Admin/Ui.php:250 classes/Admin/Ui.php:602 classes/Admin/Ui.php:702
+#: classes/Reservations/Messaging.php:60 classes/Site/Ui.php:59
+msgid "Description"
+msgstr "Kuvaus"
+
+#: classes/Admin/Ui.php:259 classes/Admin/Ui.php:260
+msgid "Order places by column"
+msgstr "Tieto jonka mukaan paikat järjestetään"
+
+#: classes/Admin/Ui.php:263 classes/Admin/Ui.php:582
+#: classes/Reservations/Messaging.php:52 classes/Site/Ui.php:28
+msgid "Place name"
+msgstr "Paikkatunnus"
+
+#: classes/Admin/Ui.php:294
+msgid "Reservation settings"
+msgstr "Varausten asetukset"
+
+#: classes/Admin/Ui.php:299
+msgid "Select reservation fields which are mandatory to fill"
+msgstr "Varauksen pakolliset tiedot"
+
+#: classes/Admin/Ui.php:304 classes/Admin/Ui.php:457 classes/Admin/Ui.php:458
+#: classes/Admin/Ui.php:523 classes/Admin/Ui.php:654
+#: classes/Reservations/ReservationDirectory.php:208 classes/Site/Ui.php:134
+#: classes/Site/Ui.php:135
+msgid "Place"
+msgstr "Paikka"
+
+#: classes/Admin/Ui.php:305 classes/Admin/Ui.php:311 classes/Admin/Ui.php:317
+#: classes/Admin/Ui.php:323 classes/Admin/Ui.php:329 classes/Admin/Ui.php:335
+#: classes/Admin/Ui.php:341 classes/Admin/Ui.php:347
+msgid "When selected it is mandatory to fill field %s when making reservation"
+msgstr "Valittuna tieto %s on pakko antaa varausta tehtäessä"
+
+#: classes/Admin/Ui.php:316 classes/Admin/Ui.php:479 classes/Admin/Ui.php:480
+#: classes/Admin/Ui.php:525 classes/Admin/Ui.php:617 classes/Admin/Ui.php:656
+#: classes/Admin/Ui.php:694 classes/Reservations/Messaging.php:62
+#: classes/Reservations/ReservationDirectory.php:218 classes/Site/Ui.php:156
+#: classes/Site/Ui.php:157
+msgid "Name"
+msgstr "Nimi"
+
+#: classes/Admin/Ui.php:322 classes/Admin/Ui.php:485 classes/Admin/Ui.php:486
+#: classes/Admin/Ui.php:526 classes/Admin/Ui.php:658
+#: classes/Reservations/Messaging.php:63
+#: classes/Reservations/ReservationDirectory.php:223 classes/Site/Ui.php:161
+#: classes/Site/Ui.php:162
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: classes/Admin/Ui.php:328 classes/Admin/Ui.php:491 classes/Admin/Ui.php:492
+#: classes/Admin/Ui.php:527 classes/Admin/Ui.php:660
+#: classes/Reservations/Messaging.php:64
+#: classes/Reservations/ReservationDirectory.php:228 classes/Site/Ui.php:166
+#: classes/Site/Ui.php:167
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: classes/Admin/Ui.php:334 classes/Admin/Ui.php:497 classes/Admin/Ui.php:498
+#: classes/Admin/Ui.php:528 classes/Reservations/Messaging.php:66
+#: classes/Reservations/ReservationDirectory.php:233 classes/Site/Ui.php:171
+#: classes/Site/Ui.php:172
+msgid "Reservation start time"
+msgstr "Varauksen alkamisaika"
+
+#: classes/Admin/Ui.php:340 classes/Admin/Ui.php:503 classes/Admin/Ui.php:504
+#: classes/Admin/Ui.php:529 classes/Reservations/Messaging.php:67
+#: classes/Reservations/ReservationDirectory.php:238 classes/Site/Ui.php:176
+#: classes/Site/Ui.php:177
+msgid "Reservation end time"
+msgstr "Varauksen päättymisaika"
+
+#: classes/Admin/Ui.php:346 classes/Admin/Ui.php:509 classes/Admin/Ui.php:530
+#: classes/Reservations/Messaging.php:68
+#: classes/Reservations/ReservationDirectory.php:243 classes/Site/Ui.php:181
+msgid "Additional information"
+msgstr "Lisätiedot"
+
+#: classes/Admin/Ui.php:363
+msgid "General email settings"
+msgstr "Yleiset sähköposti-ilmoitusten asetukset"
+
+#: classes/Admin/Ui.php:368
+msgid "Admin notification receiver email"
+msgstr "Hallinnon sähköpostiosoite"
+
+#: classes/Admin/Ui.php:369
+msgid "Email address where notifications are sent"
+msgstr "Sähköpostiosoite johon ilmoitukset lähetetään"
+
+#: classes/Admin/Ui.php:381
+msgid "Reservation email content for customer"
+msgstr "Varauksen sähköposti-ilmoituksen sisältö asiakkaalle"
+
+#: classes/Admin/Ui.php:384 classes/Admin/Ui.php:419
+msgid ""
+"Following data replacements can be used in the subject and content of the "
+"email. Data replacements are going to be replaced with actual values when "
+"sending the email. Remember to include the \"{\" and \"}\" characters."
+msgstr ""
+"Seuraavia tageja voidaan käyttää sähköpostin sisällössä ja otsikossa. Tagit "
+"muutetaan oikeaksi arvoiksi ennen sähköpostin lähettämistä. Muista lisätä "
+"\"{\" ja \"}\" merkit muuttujien nimien ympärille."
+
+#: classes/Admin/Ui.php:395 classes/Admin/Ui.php:430
+msgid "Email subject"
+msgstr "Sähköpostin aihe"
+
+#: classes/Admin/Ui.php:396
+msgid "Subject of the email sent to customer about the reservation"
+msgstr "Asiakkaalle lähetettävän sähköpostin aihe"
+
+#: classes/Admin/Ui.php:402 classes/Admin/Ui.php:437
+msgid "Email content"
+msgstr "Sähköpostin sisältö"
+
+#: classes/Admin/Ui.php:403
+msgid "Content of the email sent to customer about the reservation"
+msgstr "Asiakkaalle lähetettävän sähköpostin sisältö"
+
+#: classes/Admin/Ui.php:416
+msgid "Reservation email content for administration"
+msgstr "Varauksen sähköposti-ilmoituksen sisältö hallinnolle"
+
+#: classes/Admin/Ui.php:431
+msgid "Subject of the email sent to administration about the reservation"
+msgstr "Hallinnolle lähetettävän sähköpostin aihe"
+
+#: classes/Admin/Ui.php:438
+msgid "Content of the email sent to administration about the reservation"
+msgstr "Hallinnolle lähetettävän sähköpostin sisältö"
+
+#: classes/Admin/Ui.php:514 classes/Admin/Ui.php:607 classes/Site/Ui.php:186
+msgid "Add"
+msgstr "Lisää"
+
+#: classes/Admin/Ui.php:531 classes/Admin/Ui.php:703 classes/Site/Ui.php:62
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: classes/Admin/Ui.php:583
+msgid "Name of the place"
+msgstr "Paikkatunnus"
+
+#: classes/Admin/Ui.php:642 classes/Admin/Ui.php:683 classes/Site/Ui.php:119
+msgid "Filter"
+msgstr "Suodata"
+
+#: classes/Admin/Ui.php:712
+msgid "Place types"
+msgstr "Paikkatyypit"
+
+#: classes/Admin/Ui.php:722
+msgid "Add place type"
+msgstr "Lisää paikkatyyppi"
+
+#: classes/Admin/Ui.php:732
+msgid "Locations"
+msgstr "Lokaatiot"
+
+#: classes/Admin/Ui.php:742
+msgid "Add location"
+msgstr "Lisää lokaatio"
+
+#: classes/Admin/Ui.php:752
+msgid "Period types"
+msgstr "Kausityypit"
+
+#: classes/Admin/Ui.php:759
+msgid "Add period type"
+msgstr "Lisää kausityyppi"
+
+#: classes/Admin/Ui.php:789
+msgid ""
+"CSV file that contains reservations and their places to be imported into the "
+"system"
+msgstr ""
+"CSV-tiedosto joka sisältää tuotavien paikkojen ja niiden varauksien tietoja"
+
+#: classes/Admin/Ui.php:790 classes/Admin/Ui.php:828 classes/Admin/Ui.php:852
+msgid "CSV import file"
+msgstr "Tuotava CSV-tiedosto"
+
+#: classes/Admin/Ui.php:796
+msgid ""
+"If imported place already exists and has existing reservations remove the "
+"reservations"
+msgstr ""
+"Jos tuotava paikka on jo olemassa ja sille on olemassa varaus niin poista "
+"tämä varaus jotta paikan tietoja voidaan muuttaa"
+
+#: classes/Admin/Ui.php:797
+msgid "Remove existing reservation from place"
+msgstr "Poista olemassa oleva varaus"
+
+#: classes/Admin/Ui.php:803
+msgid ""
+"If imported place has types and locations defined that does not exist create "
+"them"
+msgstr ""
+"Jos tuotavaan paikkaan liittyy tyyppejä ja/tai lokaatioita, joita ei ole "
+"olemassa niin luo ne"
+
+#: classes/Admin/Ui.php:804 classes/Admin/Ui.php:866
+msgid "Create types and locations"
+msgstr "Luo tyypit ja lokaatiot"
+
+#: classes/Admin/Ui.php:810 classes/Admin/Ui.php:872
+msgid "Change data of existing places found by place name"
+msgstr "Muuta nimen perusteella löydetyn olemassa olevan paikan tiedot"
+
+#: classes/Admin/Ui.php:811 classes/Admin/Ui.php:873
+msgid "Change data of existing places"
+msgstr "Muuta olemassa olevien paikkojen tiedot"
+
+#: classes/Admin/Ui.php:816 classes/Admin/Ui.php:840 classes/Admin/Ui.php:878
+#: classes/Plugin/Menu.php:116
+msgid "Import"
+msgstr "Tuo"
+
+#: classes/Admin/Ui.php:816 classes/Admin/Ui.php:840 classes/Admin/Ui.php:878
+msgid "Import the contents of the selected file"
+msgstr "Tuo valitun tiedoston sisältö"
+
+#: classes/Admin/Ui.php:827
+msgid "CSV file that contains reservations to be imported into the system"
+msgstr "CSV-tiedosto joka sisältää tuotavia varauksia ja niiden tietoja"
+
+#: classes/Admin/Ui.php:834
+msgid "If duplicate reservation is found remove the existing reservation"
+msgstr "Jos duplikaatteja varauksia löytyy niin poista olemassa oleva varaus"
+
+#: classes/Admin/Ui.php:835
+msgid "Remove existing reservation"
+msgstr "Poista olemassa oleva varaus"
+
+#: classes/Admin/Ui.php:851
+msgid "CSV file that contains places to be imported into the system"
+msgstr "CSV-tiedosto joka sisältää tuotavia paikkoja ja niiden tietoja"
+
+#: classes/Admin/Ui.php:858
+msgid ""
+"If imported place already exists and has existing reservations remove the "
+"reservations, this is needed to change the place in case reservations were "
+"found"
+msgstr ""
+"Jos tuotava paikka on jo olemassa ja sille on olemassa varaus niin poista "
+"tämä varaus jotta paikan tietoja voidaan muuttaa"
+
+#: classes/Admin/Ui.php:859
+msgid "Remove existing reservation from place to be changed"
+msgstr "Poista muutettavan paikan olemassa oleva varaus"
+
+#: classes/Admin/Ui.php:865
+msgid ""
+"If imported place has types and locations defined that does not exist then "
+"create them"
+msgstr ""
+"Jos tuotavaan paikkaan liittyy tyyppejä ja/tai lokaatioita, joita ei ole "
+"olemassa niin luo ne"
+
+#: classes/Admin/Ui.php:885
+msgid "Insufficient permissions."
+msgstr "Riittämättömät oikeudet."
+
+#: classes/Importer/FileImporter.php:46
+msgid "Place '%s' already has existing reservation."
+msgstr "Paikalle '%s' on jo olemassa varaus."
+
+#: classes/Importer/FileImporter.php:107
+msgid "Place type with name '%s' could not be found."
+msgstr "Paikkatyyppiä nimeltään '%s' ei löydy."
+
+#: classes/Importer/FileImporter.php:132
+msgid "Period type with name '%s' could not be found."
+msgstr "Kausityyppiä nimeltään '%s' ei löydy."
+
+#: classes/Importer/FileImporter.php:158
+msgid "Location with name '%s' could not be found."
+msgstr "Lokaatiota nimeltään '%s' ei löydy."
+
+#: classes/Importer/FileImporter.php:179
+msgid "Uploaded file %s does not exist"
+msgstr "Ladattua tiedostoa %s ei löydy"
+
+#: classes/Importer/FileImporter.php:182
+msgid "Could not open uploaded file %s for reading"
+msgstr "Ladatun tiedoston %s lukeminen epäonnistui"
+
+#: classes/Importer/PlacesImporter.php:61
+msgid "Importing row #%d with place name '%s' failed: %s"
+msgstr ""
+"Tuonnissa tapahtui virhe tiedoston rivillä #%d paikan nimenä '%s'. "
+"Virheilmoitus: %s"
+
+#: classes/Importer/PlacesImporter.php:128
+#: classes/Importer/ReservationsWithPlacesImporter.php:149
+msgid "Place '%s' has existing reservation it cannot be changed."
+msgstr ""
+"Paikalle '%s' on olemassa varaus joten paikan tietoja ei voida muuttaa."
+
+#: classes/Importer/PlacesImporter.php:138
+msgid "Place '%s' already exists"
+msgstr "Paikka nimellä '%s' on jo olemassa"
+
+#: classes/Importer/ReservationsImporter.php:49
+#: classes/Importer/ReservationsWithPlacesImporter.php:73
+msgid "Importing row #%d with reservation name '%s' failed: %s"
+msgstr ""
+"Tuonnissa tapahtui virhe tiedoston rivillä #%d varauksen nimenä '%s'. "
+"Virheilmoitus: %s"
+
+#: classes/Importer/ReservationsImporter.php:84
+msgid "Could not find place with name '%s'."
+msgstr "Paikkaa nimellä '%s' ei löytynyt."
+
+#: classes/Places/LocationDirectory.php:61
+msgid "Invalid location ID '%d' given"
+msgstr "Annettu lokaation tunniste '%d' on virheellinen"
+
+#: classes/Places/LocationDirectory.php:72
+msgid "Invalid location name '%s' given"
+msgstr "Annettu lokaation nimi '%s' on virheellinen"
+
+#: classes/Places/PlaceDirectory.php:45
+msgid "Place with name '%s' already exists."
+msgstr "Paikka nimellä '%s' on jo olemassa."
+
+#: classes/Places/PlaceDirectory.php:87 classes/Places/PlaceDirectory.php:104
+#: classes/Reservations/ReservationDirectory.php:132
+msgid "Invalid place ID '%d' given"
+msgstr "Virheellinen paikan tunniste '%d' annettu"
+
+#: classes/Places/PlaceDirectory.php:91
+msgid "Could not find place with ID '%d'"
+msgstr "Paikkaa tunnisteella '%d' ei löytynyt"
+
+#: classes/Places/PlaceDirectory.php:124
+msgid "Invalid place name '%s' given"
+msgstr "Virheellinen paikan nimi '%s' annettu"
+
+#: classes/Plugin/Menu.php:116
+msgid "Importer"
+msgstr "Tietojen tuonti"
+
+#: classes/Plugin/RolesAndCapabilities.php:44
+msgid "Reservations Administrator"
+msgstr "Varausten ylläpitäjä"
+
+#: classes/Plugin/RolesAndCapabilities.php:63
+msgid "Reservations Places Administrator"
+msgstr "Paikkojen ylläpitäjä"
+
+#: classes/Plugin/RolesAndCapabilities.php:88
+msgid "Reservations Global Administrator"
+msgstr "Varausjärjestelmän ylläpitäjä"
+
+#: classes/Reservations/PeriodTypeDirectory.php:66
+msgid "Invalid period type ID '%d' given"
+msgstr "Annettu kausityypin tunniste '%d' on virheellinen"
+
+#: classes/Reservations/PeriodTypeDirectory.php:82
+msgid "Invalid period type name '%s' given"
+msgstr "Annettu kausityypin nimi '%s' on virheellinen"
+
+#: classes/Reservations/ReservationDirectory.php:94
+#: classes/Reservations/ReservationDirectory.php:112
+msgid "Invalid reservation ID '%d' given"
+msgstr "Annettu varauksen tunniste '%d' on virheellinen"
+
+#: classes/Reservations/ReservationDirectory.php:99
+msgid "Could not find reservation with ID '%d'"
+msgstr "Varausta tunnisteella '%d' ei löytynyt"
+
+#: classes/Reservations/ReservationDirectory.php:247
+msgid "There are mandatory fields without value. Field(s): %s"
+msgstr "Varauksesta puuttuu seuraavat pakolliset tiedot: %s"
+
+#: classes/Site/Api.php:147
+msgid "Reserve"
+msgstr "Varaa"
+
+#: classes/Site/Ui.php:129 classes/Site/Ui.php:186
+msgid "Make reservation"
+msgstr "Tee varaus"

@@ -1,0 +1,3 @@
+"Name";"Email";"Phone Number";"Reservation start time";"Reservation end time";"Additional information on reservation";"Place name"
+"Test Person";"test.person@example.com";"+35840123460";"2020-04-03";"2020-05-04";"This place is needed";"A4"
+"Person Test";"person.test@example.com";"+35840123461";"2020-05-04";"2020-06-05";"This place is really needed";"E3"
